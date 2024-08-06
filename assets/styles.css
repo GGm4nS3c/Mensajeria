@@ -1,0 +1,120 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.SeccionPrincipal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EBE4;
+}
+
+.SeccionPrincipal h1 {
+    font-size: 45px;
+}
+
+.SeccionPrincipal p {
+    font-size: 16px;
+}
+.content {
+    width: 60%;
+    text-align: center;
+    color: black;
+}
+
+.content img {
+    width: 30%;
+}
+
+
+.chatlist {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 25vw;
+    padding: 2px;
+    margin: 2px;
+}
+
+.user-state {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 2px solid #BEC1BB ;
+    gap: 1rem;
+}
+
+.user-connected-avatar img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.user-connected-name {
+    font-size: 14px;
+    
+}
+
+.user-connected-status {
+    font-size:xx-small;
+    color: #BEC1BB;
+}
+
+.user-connected-options{
+    display: flex;
+    gap: 1rem;
+    color: #BEC1BB;
+
+}
+
+.user-connected-data {
+    padding: 2px;
+    margin: 2px;
+    width: 100%;
+    border-bottom: 1px #BEC1BB ;
+}
+
+
+.div-btn-newchat{
+    padding: 2rem;
+    border-bottom: 2px solid #BEC1BB ;
+}
+
+.btn-newchat {
+    background-color: #A491D2;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 2px solid #BEC1BB ;
+}
+.user-contact-avatar img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.user-contact-data{
+    padding: 0.5rem;
+}
+
+.user-contact-data{
+    font-size: 14px;
+}
+.user-contact-status {
+
+}
